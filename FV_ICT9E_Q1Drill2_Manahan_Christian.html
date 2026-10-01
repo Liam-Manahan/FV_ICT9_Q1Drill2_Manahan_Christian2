@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+
+        .movielogo{
+            
+            height: 300px;
+            width: 300px;
+
+
+
+
+}
+
+        body{ 
+                font_family: Consolas;
+                background-color: rgb(13, 122, 217);
+
+        }
+        header{
+            text-align:center
+
+
+        }
+       section{
+
+            background-color: #d7f019;
+            padding: 1px;
+            border-radius: 1px;
+            width: 800px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(107, 87, 87, 0.1);
+         }
+        input[type="text"], select, textarea,  input[type="submit"] {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <br>
+        <p>SPIDERMAN: Brand New day is the 4th Movie of the MCU Spiderman Universe, branded as the new start of Peter Parker's life after the events of SPIDERMAN: No Way Home, the end of the MCU Spiderman Trilogy.</p>
+    </header>
+    <br>
+
+    <section>
+    <form action="">
+            <img src="https://images.thedirect.com/media/photos/log2.png" alt="Movie Logo" ID="movie-logo">
+            <br>
+        <label for="movie" >SPIDERMAN: Brand New Day </label>
+        <br>
+
+        <input type="text" id="movie" name="movie" placeholder="Enter Here">
+        <br>
+        <label for="">Genre/s</label>
+        <br>
+
+        <input type="checkbox" id="genre1" name="genre1">
+        <label for="genre1">Action</label>
+
+        <input type="checkbox" id="genre2" name="genre2">
+        <label for="genre2">Superhero Sci-Fi</label>
+
+        <input type="checkbox" id="genre3" name="genre3">
+        <label for="genre3">Comedy</label>
+        <!--make a copy of line 32 and 33 based on the number of generes. just change the IDs-->
+        <br>
+
+        <label for="rating">Rating</label>
+        <br>
+
+        <input type="radio"  id="rate1" name="rate1">
+        <label for="rate1">⭐</label>
+
+        <input type="radio"  id="rate1" name="rate1">
+        <label for="rate1">⭐⭐</label>
+
+        <input type="radio"  id="rate1" name="rate1">
+        <label for="rate1">⭐⭐⭐</label>
+
+        <input type="radio"  id="rate1" name="rate1">
+        <label for="rate1">⭐⭐⭐⭐</label>
+
+        <input type="radio"  id="rate1" name="rate1">
+        <label for="rate1">⭐⭐⭐⭐⭐</label>
+        <!--make a copy of lines 40 - 41, IDs should be different, name should be same for all-->
+
+        <br>
+        <textarea id="review" placeholder="write a review here..." rows="4" cols="50"></textarea>
+        <br>
+
+        <input type="submit" id="submit" value="Submit Review">
+        <br>
+
+        Click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank">Here</a> for the guideline in making a review.
+    </form> 
+    </section>
+
+    <!--Reference
+    Nyfa, & Nyfa. (2024, March 23). How to write a movie review: 10 essential tips. NYFA. https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/-->
+</body>
+</html>
